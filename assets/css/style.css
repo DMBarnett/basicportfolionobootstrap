@@ -94,3 +94,55 @@ a {
     display: inline-block;
     padding: 5px;
 }
+
+@media screen and (min-width:640px) {
+    .rightButtons:nth-of-type(1) {
+        padding-left: 0;
+    }
+    .contentBox{
+        width: 600px;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .rightButtons:nth-of-type(1) {
+        padding-left: 10%;
+    }
+    .contentBox{
+        width: 700px;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width:980px) {
+    .rightButtons:nth-of-type(1) {
+        padding-left: 30%;
+    }
+    .contentBox{
+        width: 920px;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 1350px){
+    .rightButtons:nth-of-type(1) {
+        padding-left: 50%;
+    }
+}
+
+@media screen and (max-width:640px) {
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 200px;
+    }
+    li a {
+        display: block;
+        width: 60px;
+    }
+    #leftName{
+        display:block;
+    }
+}
